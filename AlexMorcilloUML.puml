@@ -1,0 +1,10 @@
+@startuml
+
+:Cliente:
+(Meter dinero) as MD
+(Pedir azúcar) as PA
+(Pedir producto) as PPr
+(Cancelar) as Cn
+(Devolver dinero) as DD
+
+@enduml
