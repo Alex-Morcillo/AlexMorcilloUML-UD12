@@ -1,0 +1,20 @@
+@startuml
+'Alex Morcillo Caubera'
+:Actor:
+(Identificarse) as ID
+(Pagar) as Pay
+(Elegir mensajero) as EM
+(Confirmar) as OK
+(Registrarse) as RG
+(Pagar con tarjeta) as PTj
+(Pagar con transferencia) as PTf
+
+Actor -- ID
+Actor -- Pay
+Actor -- EM
+Actor -- OK
+ID <.. RG
+Pay <|-- PTj
+Pay <|-- PTf
+
+@enduml
