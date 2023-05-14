@@ -7,4 +7,11 @@
 (Cancelar) as Cn
 (Devolver dinero) as DD
 
+Cliente -- MD
+Cliente -- PA
+Cliente -- PPr
+Cliente -- Cn
+PPr .. DD : <<include>>
+Cn .. DD : <<include>>
+
 @enduml
