@@ -1,0 +1,20 @@
+@startuml
+'Alex Morcillo Caubera'
+:Usuario:
+:Administrador:
+(Iniciar sesion) as IS
+(Recuperar contraseña) as RC
+(Modificar contraseña) as MC
+(Cerrar sesion) as CS
+(Registrar usuario) as RU
+(Instalar programa) as IP
+
+Usuario -- IS
+Usuario -- RC
+Usuario -- MC
+Usuario -- CS
+Administrador -- RU
+Administrador -- IP
+Usuario <|-- Administrador
+
+@enduml
