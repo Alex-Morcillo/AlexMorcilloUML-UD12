@@ -1,0 +1,13 @@
+@startuml
+'Alex Morcillo Caubera'
+:Ciudadano: as CD
+:Ciudadano Extranjero: as CDE
+(Registrar entrada) as RE
+(Tomar huellas) as TH
+
+CD -- RE
+CDE -- TH
+RE <.. TH : <<extend>>
+CD <|-- CDE
+
+@enduml
